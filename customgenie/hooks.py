@@ -41,6 +41,14 @@ app_license = "mit"
 
 # include js in page
 # page_js = {"page" : "public/js/file.js"}
+fixtures = [
+    {
+        "doctype": "Custom Field",
+        "filters": {
+            "dt": "Lead"  # Filter custom fields related to the Lead Doctype
+        }
+    }
+]
 
 # include js in doctype views
 # doctype_js = {"doctype" : "public/js/doctype.js"}
